@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Estilo.css">
+</head>
+<body>
+    <h1 aling="Center">Registro de encuesta de sastifaccion</h1>
+    <form action="">
+        Nombre:<input type="text" name="" id="">
+        Primer Apellido<input type="text" name="" id="">
+        Segundo Apellido<input type="text" name="" id="">
+        <br><br>
+        Fecha de nacimiento:
+        <input type="date"><br><br>
+        Alcadia:<select name="" id="">
+            <option value=""> Alvaro Obregon</option>
+            <option value=""> Xochimilco</option>
+            <option value=""> Cuajimalpa</option>
+            <option value=""> Miguel Hidalgo</option>
+        </select>
+        Centro de Salud:<select name="" id="">
+            <option value="">Centro de salud Alvaro Obregon</option>
+            <option value="">Centro de salud Xochimilco</option>
+            <option value="">Centro de salud Cuajimalpa</option>
+            <option value="">Centro de salud Miguel Hidalgo</option>
+        </select><br><br>
+        Le atendieron:
+        Muy bien:<input type="radio" name="Muy bien" id="">
+        Bien:<input type="radio" name="Bien" id="">
+        Regular:<input type="radio" name="Regular" id="">
+        Mal:<input type="radio" name="Mal" id="">
+    </form>
+</body>
+</html>
